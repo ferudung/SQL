@@ -1,4 +1,4 @@
---TABLO OLUSTURMA--
+--1111TABLO OLUSTURMA--
 CREATE TABLE student
 (
 id CHAR(4),
@@ -10,7 +10,7 @@ age NUMBER
 INSERT INTO student VALUES ('1001','MEHMET ALA',25);
 INSERT INTO student VALUES ('1002','AYSE',12);
 
---TABLODAN VERÝ SORGUSU--
+--TABLODAN VERÃ SORGUSU--
 SELECT * FROM student;
 
 --TABLO SILME--
@@ -19,10 +19,10 @@ DROP TABLE student;
 --PARCALI VERI GIRISI--
 INSERT INTO student(id, name) VALUES('1003','FATMA');
 
---veri tabaninda urunler adýnda bir tablo olusturun.
+--veri tabaninda urunler adÃ½nda bir tablo olusturun.
 --urun_id=>number
 --urun_adi=>VARCHAR(50)
---FÝYAT=>NUMBER
+--FÃYAT=>NUMBER
 
 CREATE TABLE urunler
 (
